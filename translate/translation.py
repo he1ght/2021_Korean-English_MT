@@ -1,9 +1,9 @@
 """ Translation main class """
 import os
 import torch
-from onmt.constants import DefaultTokens
-from onmt.inputters.text_dataset import TextMultiField
-from onmt.utils.alignment import build_align_pharaoh
+from constants import DefaultTokens
+from inputters.text_dataset import TextMultiField
+from utils.alignment import build_align_pharaoh
 
 
 class TranslationBuilder(object):
